@@ -19,7 +19,6 @@ A React-typescript configuration template for projects using apollo client as th
 		- [locales](#locales)
 		- [stories](#stories)
 	- [Running the `scripts` command](#running-the-scripts-command)
-	- [Contributing](#contributing)
 
 <a name="Prerequisite"></a>
 ## Prerequisites
@@ -63,7 +62,6 @@ By now, I think you have realized that the apollo folder relies on some kind of 
 - **Apollo Cache Persist** - Utilizes async storage to persist and rehydrate the Apollo store
 - **React Router DOM** - A collection of navigational components that compose declaratively with your application.
 - **Styled Components** - Powerful CSS in JS module providing template literals to support dynamic styling.[Learn More](https://styled-components.com/)
-- **Ant Design** - An enterprise-class UI _design_ language and React UI library with a set of high-quality React components, one of best React UI library for enterprises.[Learn More](https://ant.design/)
 - **EsLint/Prettier/Airbnb linting style** - Enforces code styling, and standards. Airbnb's tslint guidelines are followed by default.
 - **React-i18next** - A powerful internationalization framework for React based on i18next.[Learn More](https://react.i18next.com/)
 - **Test** - Testing support for React and apollo client.

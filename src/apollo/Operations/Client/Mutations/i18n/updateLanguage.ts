@@ -15,7 +15,7 @@ export const updateLanguage = (language: Language) => {
                 i18n: updatedLanguage,
             },
         });
-    } catch (error) {
-        throw new Error(error.message);
+    } catch (error: any) {
+        throw new Error(error?.message);
     }
 };

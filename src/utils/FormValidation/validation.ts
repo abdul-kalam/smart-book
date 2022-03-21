@@ -37,6 +37,7 @@ export const validateField = (name: string, errors: string[], values: any) => {
           parseInt(values.startTime.split(":")[0], 10),
           parseInt(values.startTime.split(":")[1], 10),
         );
+        console.log('check')
         let now = new Date();
         if (now > meetingStartDateTime) {
           errors.push("Start time can not be in past");

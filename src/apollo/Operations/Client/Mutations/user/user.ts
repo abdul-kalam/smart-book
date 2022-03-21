@@ -14,7 +14,7 @@ export const updateLocalUser = async (isLoggedIn: boolean) => {
                 localUser: updatedUser,
             },
         });
-    } catch (error) {
-        throw new Error(error.message);
+    } catch (error: any) {
+        throw new Error(error?.message);
     }
 };

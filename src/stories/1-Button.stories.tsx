@@ -22,19 +22,9 @@ export default {
     ],
 };
 
-export const Text = () => <Button onClick={action("clicked")} Text="Hello World" />;
+export const Text = () => <Button onClick={action("clicked")} text="Hello World" />;
 
-export const Emoji = () => (
-    <Button
-        onClick={action(" emoji clicked")}
-        Text={
-            <span role="img" aria-label="so cool">
-                😀 😎 👍 💯
-            </span>
-        }
-    />
-);
 
 export const Loading = () => (
-    <Button onClick={action(" emoji clicked")} Text="button" loading />
+    <Button onClick={action(" emoji clicked")} text="button"  />
 );

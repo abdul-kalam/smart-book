@@ -23,7 +23,7 @@ export const convertToDateTime = (
     date.setHours(hours);
   }
   if (minuntes) {
-    date.setMinutes(hours, minuntes);
+    date.setMinutes(minuntes);
   }
 
   return date;

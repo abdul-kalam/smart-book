@@ -10,7 +10,15 @@ export const SmartMeeting = loadable(() => import("pages/SmartMeeting"), {
     ),
 });
 
-export const Welcome = loadable(() => import("pages/Welcome"), {
+export const AddMeeting = loadable(() => import("pages/AddMeeting"), {
+    fallback: (
+        <LoadingContainer>
+            <span>Loading...</span>
+        </LoadingContainer>
+    ),
+});
+
+export const RoomSelect = loadable(() => import("pages/RoomSelect"), {
     fallback: (
         <LoadingContainer>
             <span>Loading...</span>
