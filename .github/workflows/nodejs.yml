@@ -29,6 +29,7 @@ jobs:
       uses: actions/cache@v1.1.2
       env:
         cache-name: cache-node-modules
+        CI: false
       with:
         # A directory to store and save the cache
         path: ~/.npm
