@@ -10,7 +10,7 @@ const version = process.env.REACT_APP_GRAPHQL_VERSION || '';
 const route = process.env.REACT_APP_GRAPHQL_ROUTE || '';
 
 const serverLink: HttpLink = new HttpLink({
-    uri: `http://smart-meeting.herokuapp.com/graphql`,
+    uri: `https://smart-meeting.herokuapp.com/graphql`,
     headers: {"token":"ak123gjhgjsdf6576"},
 });
 
